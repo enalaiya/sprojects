@@ -1,0 +1,15 @@
+1. Elizabeth Schoen and David Voye
+2. To the extent of our knowledge the program is working solidly and giving us expected results.
+3. We believe loadSentences to be the largest slowdown of the whole program, just because loading in all the data of the file takes 
+	a certain amount of time.  With our small test files and with peterpan.txt it was a matter of seconds.  With a 24 MB file we did try
+	(but didn't include as a test file) it took approximately a minute for the program to run completely, with probably about a third of
+ 	the time going into loading the dictionary and the remaining two thirds going into discovering tokens.
+4. Resegment was trickier than we were anticipating, and we spent a good deal of time fixing bugs in it to generate correct output.  We also
+	 spent a considerable amount of the time working though the math in convertCountsToProbabilities, and going step by step through that 
+	to make sure we were understanding how to convert that equation into java code.
+5. To check the efficiency of the program we used peterpan.txt and the above mentioned 24 MBs of text to confirm our program worked for a larger 
+	file in a reasonable amount of time.  Test 1 was just a file with repeating characters to make sure our file was loading properly and 
+	generating the correct bigrams.  Test 2 we used to make sure that resegment was giving us correct outputs.
+6. It was difficult to nail down the true correlation between the thresholds and the number of words, but we discovered that the largest number
+	 of actual word tokens was achieved with the probability threshold was set to .3 and the largest number of unique words seemed to be achieved
+	 when the thresholds were set to 1 and .1 respectively.

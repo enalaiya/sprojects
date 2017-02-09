@@ -1,0 +1,16 @@
+1. Elizabeth Schoen
+2. None of the 3 find min algorithms are currently working.  My implementation of them went
+	quite awry and even though I feel like my strategy now is destined for greatness, my
+	they aren't implemented and wont be tonight.  I started too late and this week has
+	eaten me alive and I'm turning this in now before my choir concert tonight.
+	If i have a chance, I may do more work on it.
+3. I think I had a difficult time with collections as a general concept and working around
+	them has left my project not the most asymptotically efficient.  I think anywhere 
+	where I'm traversing the Adjacency list i created is sloppy.
+4. The most challenging part of this assignment was figuring out what was wanted of me.  I
+	needed a sample output file, and compared to the first assignment the layout and
+	instructions were very vague.  Thats part of why I think I've wasted so much time
+	and have ultimately not had enough time for this implementation. 
+5. I wish I'd even got to the stage of testing for efficiency.  I did make some files to
+	test the loading of the Adjacency list, which I have included, and some small ones
+	to test that the program was working at all in the beginning.
